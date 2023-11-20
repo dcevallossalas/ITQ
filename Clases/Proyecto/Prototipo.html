@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" /> 
+    <script defer src="https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+  </head>
+ 
+<body>
+<div id="div2" class="container">
+<h1 class="h1">Mi tienda virtual segura</h1>
+<label>Ingrese su código de tienda: </label>
+<input  id="userInput" 
+                    type="text" 
+                    class="input is-info" 
+                    placeholder="ABCDEFGHIJKL123456"></input>			
+<button type="button" id="button" class="button is-primary">Enviar mensaje</button>
+</div>
+<div id="div1" class="container"></div>
+
+<py-script>
+from js import document 
+from pyodide import create_proxy
+import hashlib
+
+def cifrar(*args):
+ texto = document.getElementById("userInput").value
+ hash = hashlib.sha1()
+ hash.update(texto.encode())
+ display("-----------------------------------------------------------------------------",target="div1")
+ display(f"Mensaje original: {texto}",target="div1")
+ display(f"Hash del mensaje: {hash.hexdigest()}",target="div1")
+ display("-----------------------------------------------------------------------------",target="div1")
+
+function_proxy = create_proxy(cifrar)
+
+document.getElementById("button").addEventListener("click", function_proxy)
+display(f'Mensaje enviados:',target="div1")
+</py-script>
+</body>
+</html>

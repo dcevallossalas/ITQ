@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!-- BULMA CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    
+    <!-- PYSCRIPT -->
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <py-env></py-env>
+
+  </head>
+  <body>
+
+    <!-- UI -->
+    <div id="div1" class="container">
+        <div class="section">
+            <h4 class="title is-4">
+                Welcome to ROCK-PAPER-SCISSOR game, Come and try your luck!
+            </h4>
+
+            <br>
+            <input  id="userInput" 
+                    type="text" 
+                    class="input is-info" 
+                    placeholder="have a guess"></input>
+            <br>
+            
+            <label id="labelMessage" class="tag">Enter r for rock, p for paper and s for scissor:</label>
+
+            <br>
+
+            <button  id="submit-guess-btn"
+                        class="button is-primary"
+                        type="submit" 
+                        pys-onClick="saludar">Make A Guess</button>
+        </div>
+        <hr>
+        <div class="section">
+            <pre id=log></pre>
+        </div>
+    </div>
+
+
+<py-script> 
+
+def saludar(*args, **kwargs):
+	print("entro")
+</py-script>
+
+</body>
+</html>

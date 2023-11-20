@@ -1,0 +1,60 @@
+nombre = "David"
+apellido = "Cevallos"
+
+const crypto = require('crypto');
+var https = require('https');
+
+const login = "bb464cd2ad5a5698b065c9d18c13d180";
+const secretKey = "wNEFPiW68012E8bL";
+const seed = new Date().toISOString();
+const rawNonce = Math.floor(Math.random() * 1000000);
+
+const tranKey = Buffer.from(crypto.createHash('sha256').update(rawNonce + seed + secretKey).digest(), 'binary').toString('base64');
+const nonce = Buffer.from(rawNonce.toString()).toString('base64');
+
+const url = "https://test.placetopay.ec";
+
+const body = JSON.stringify({
+  locale: "es_CO",
+  auth: {
+    login: login,
+    tranKey: tranKey,
+    nonce: nonce,
+    seed: seed,
+  },
+   "payment": {
+          "reference": "1122334455",
+          "description": "Pago a " + nombre + " " + apellido,
+          "amount": {
+            "currency": "USD",
+            "total": 100
+          }
+      },
+      "expiration": "2021-12-30T00:00:00-05:00",
+      "returnUrl": "https://dnetix.co/p2p/client",
+      "ipAddress": "127.0.0.1",
+      "userAgent": "PlacetoPay Sandbox"
+});
+
+var options = {
+  hostname: url,
+  port: 443,
+  path: '/api/session',
+  method: 'POST'
+};
+
+var req = https.request(options, (res) => {
+  console.log('statusCode:', res.statusCode);
+  console.log('headers:', res.headers);
+
+  res.on('data', (d) => {
+    process.stdout.write(d);
+  });
+});
+
+req.on('error', (e) => {
+  console.error(e);
+});
+
+req.write(body);
+req.end();
