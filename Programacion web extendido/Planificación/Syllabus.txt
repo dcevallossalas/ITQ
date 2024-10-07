@@ -1,0 +1,83 @@
+Objetivos:
+1. Resolver de manera eficaz distintos problemas de carácter general, con independencia del lenguaje de programación utilizado.
+2. Crea una página web utilizando programación.
+
+-----------------------------------------------------------------
+Unidad 1: Introducción al ambiente web y herramientas informáticas a usar a lo largo del curso.
+-----------------------------------------------------------------
+1. Presentación de tutor, exposición de Programa de Estudios de Asignatura (PEA), sistema de evaluación y normas del curso. (Tarea: Análisis de la carta a García) 
+2. Entornos de Desarrollo Integrados (IDEs) para Programación web.
+3. Evolución y contexto histórico de la Programación web. (tarea : Análisis del contexto histórico de la Programación web: Identificación y descripción de los principales hitos que marcaron la evolución del mundo web.))
+4. Introducción al formato de datos XML. (tarea para matutino)
+5 Sintaxis XML: Elementos y atributos. (tarea para ejecutivo)
+-----------------------------------------------------------------
+Unidad 2: Estructura de una web
+-----------------------------------------------------------------
+6. Estructura de una web: Maquetación
+7. Widgets HTML. (tarea: Implementación de una página web con despliegue de widgets HTML.)
+8. Introducción a Google Sites 
+9. Creación de sitios web con Google Sites. (tarea: Implementación de un sitio web con Google Sites)
+10. Identificación de estructuras de datos jerárquicas. (tarea Foro 1: Ventajas del formato de datos XML en comparación con el texto plano para la implementación de páginas web.)
+-----------------------------------------------------------------
+Unidad 3: Establecimiento de frameworks y entornos de desarrollo para HTML5 y CSS3.
+-----------------------------------------------------------------
+11. Introducción a Bootstrap (tarea: Realización de un cuadro sinóptico de los principales elementos HTML empleados en programación web.). 
+12. Diseño responsive.
+13. Implementación de una página web empleando Bootstrap: Carrusel de datos y tabletas.
+14. Implementación de una página web empleando Bootstrap: Video. (tarea: Implementación de un sitio web empleando el framework de trabajo Bootstrap)
+-----------------------------------------------------------------
+Unidad 4: Python para desarrollo web.
+-----------------------------------------------------------------
+15. Introducción a Google Colaboratory. (tarea: Implementación de un notebook de trabajo Google Colaboratory.)
+16. Sintaxis y semántica de un lenguaje de programación.
+17: Manejo de variables en ambientes web.
+18. Sentencia if aplicada en ambientes web. (tarea: Implementación de bifurcaciones empleando Python.)
+19. Sentencia if-else aplicada en ambientes web.
+20. Sentencias condicionales complejas en ambientes web. (Foro II: Importancia del manejo de hojas de estilo CSS en el Marketing Digital empleando frameworks de desarrollo web.)
+.................................................................
+Unidad 5: Desarrollo, codificación y mantenimiento de un proyecto en el lado front end.
+-----------------------------------------------------------------
+21. Sentencia for aplicada en ambientes web. (**tarea: Implementación de bucles empleando Python.)
+22. Sentencia while aplicada en ambientes web.
+23. Arreglos para almacenamiento de datos web.
+24. Tuplas para almacenamiento de datos web.
+25. Diccionarios de datos web. 
+26. Formato de datos JSON. (tarea: Creación de diccionarios en Python)
+27. Estructuras complejas en ambientes web.
+28. Funciones web. (tarea: Analizar las ventajas y fortalezas que puede brindar como ventaja competitiva conocer Python y el uso de funciones para crear sitios web en comparación con la aplicación automática de inteligencia artificial en los esquemas de organización de la empresa actual.)
+29. Introducción a PyScrypt. (tarea: Ensayo: Importancia de la Programación web en el Marketing Digital y cómo aplicar los conceptos aprendidos en escenarios prácticos.)
+30. Elaboración de un proyecto con programación. (tarea: Foro III: Razones por las cuales emplear Python como lenguaje de front-end en lugar de JavaScript.)
+Presentación de proyectos.
+Retralimentación de fin de curso.
+
+Diseño e implementación de una tienda virtual en línea
+
+1. Objetivo general
+- Crear una página web informativa y atractiva que presente información relevante sobre productos de una tienda virtual en línea.
+
+2. Objetivos específicos
+- Utilizar técnicas de diseño web para mejorar la experiencia del usuario al navegar por la página.
+- Aplicar conocimientos previos en desarrollo web para implementar una página funcional y visualmente atractiva.
+
+3. Problema
+El problema a abordar es diseñar e implementar una página web efectiva responsiva que comunique de manera clara y atractiva la información relevante sobre productos de una tienda virtual en línea. Una tienda virtual en línea es una plataforma digital que permite a los negocios vender productos o servicios a través de internet. A diferencia de una tienda física, donde los clientes deben estar presentes para realizar una compra, una tienda en línea permite a los usuarios navegar, seleccionar y comprar productos desde cualquier lugar y en cualquier momento, utilizando dispositivos conectados a internet.
+
+4. Información adicional que podría incluir la página web:
+- Nombre de la empresa
+- Misión y visión de la empresa
+- Características de los productos
+- Beneficios de productos en relación con el medio ambiente
+- Beneficios para los niños (si es el caso)
+- Precio de mercado
+- Historia de los productos
+- Presentaciones en el mercado disponibles
+- Comparación con la competencia
+
+5. Informe del proyecto
+Elaborar el Informe del proyecto usando el formato determinado por el Instituto Tecnológico Quito indicando los detalles de diseño e implementación. El documento a entregarse debe:
+
+- Poseer un índice de contenido, figuras y tablas debidamente numerado.
+- El texto debe estar debidamente justificado.
+- Cada página debe estar debidamente numerada.
+- Toda figurada y tabla debe poseer numeración y mencionarse en el texto.
+- ¡Cuidado con el plagio!. Debe citar las fuentes de información que empleó.
