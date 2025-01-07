@@ -1,0 +1,23 @@
+DISEÑO E IMPLEMENTACIÓN DE UNA BASE DE DATOS PARA UNA TIENDA VIRTUAL EN LÍNEA.
+
+En una tienda virtual en línea, la gestión de productos, usuarios y transacciones a través de bases de datos es clave para garantizar un funcionamiento eficiente. En este proyecto, se simulará un sistema de tienda virtual que gestionará productos, usuarios y compras mediante un carrito de compras. La base de datos no relacional será implementada utilizando diccionarios y listas en Python usando la plataforma Google Colaboratory, lo que permitirá una gestión dinámica y flexible de los datos.
+
+1. Objetivo general
+Diseñar e implementar una base de datos no relacional utilizando Python en Google Colaboratory para gestionar un carrito de compras de una tienda virtual en línea. Se implementarán operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre los datos de productos, usuarios y compras, permitiendo la simulación de un sistema completo de gestión de compras en línea.
+
+2.Objetivos específicos
+
+2.1. Diseñar la estructura de la base de datos en Python: Crear un modelo de datos en Python utilizando estructuras como diccionarios y listas para almacenar productos, usuarios y compras.
+2.2. Implementar funciones CRUD en Python y desarrollar funciones que permitan realizar operaciones de creación, lectura, actualización y eliminación sobre los productos, usuarios y registros de compras.
+2.3. Simular el funcionamiento de un carrito de compras e implementar un sistema interactivo que permita agregar, ver, modificar y eliminar productos en el carrito de compras, realizar la compra y generar un resumen final.
+
+3. Actividades
+
+Las actividades a realizarse en el proyecto son:
+
+3.1. Realizar un notebook Google Colaboratory para crear una base de datos no relacional para una tienda virtual en línea.
+3.2. Realizar sobre la base de datos operaciones de inserción de datos (creación).
+3.3. Realizar sobre la base de datos operaciones de filtrado de datos (lectura).
+3.4. Realizar sobre la base de datos operaciones de actualización de datos.
+3.5. Realizar sobre la base de datos operaciones de eliminación de datos.
+3.6. Realizar el informe del proyecto en formato institucional.
